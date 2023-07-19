@@ -5,6 +5,7 @@ import {
 } from "@aws-sdk/client-sagemaker-runtime";
 import { LLM, BaseLLMParams } from "./base.js";
 
+
 /**
  * A handler class to transform input from LLM to a format that SageMaker
  * endpoint expects. Similarily, the class also handles transforming output from
